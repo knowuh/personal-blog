@@ -17,7 +17,7 @@ READMORE
 
 Here is what an individual card looks like:
 
-![Minecraft Valentines day card (preview)](/images/2016-02/mc-valentine.jpg)
+{% image "./images/2016-02/mc-valentine.jpg", "Minecraft Valentines Card" %}
 
 
 And here is a link to the [4-up minecraft card pdf](./images/2016-02/mc-valentine.pdf)

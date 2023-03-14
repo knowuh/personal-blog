@@ -19,7 +19,6 @@ module.exports = eleventyConfig => {
 		let metadata = await eleventyImage(file, {
 			widths: widths || ["auto"],
 			formats,
-			class: "imgFit",
 			outputDir: path.join(eleventyConfig.dir.output, "img"), // Advanced usage note: `eleventyConfig.dir` works here because we’re using addPlugin.
 		});
 
@@ -29,6 +28,7 @@ module.exports = eleventyConfig => {
 			sizes,
 			loading: "lazy",
 			decoding: "async",
+			class: "imgFit"
 		};
 		return eleventyImage.generateHTML(metadata, imageAttributes);
 	});

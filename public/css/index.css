@@ -10,12 +10,12 @@
 	--color-gray-50: #C0C0C0;
 	--color-gray-90: #333;
 
-	--background-color: #fff;
+	--background-color: hsl(210deg 34% 12%);
 
-	--text-color: var(--color-gray-90);
-	--text-color-link: #082840;
-	--text-color-link-active: #5f2b48;
-	--text-color-link-visited: #17050F;
+	--text-color: hsl(41deg 50% 90%);
+	--text-color-link: hsl(41deg 80% 80%);
+	--text-color-link-active: hsl(41deg 80% 70%);
+	--text-color-link-visited: hsl(41deg 80% 60%);
 
 	--syntax-tab-size: 2;
 }
@@ -26,12 +26,8 @@
 		--color-gray-50: #C0C0C0;
 		--color-gray-90: #dad8d8;
 
-		/* --text-color is assigned to --color-gray-_ above */
-		--text-color-link: #1493fb;
-		--text-color-link-active: #6969f7;
-		--text-color-link-visited: #a6a6f8;
-
-		--background-color: #15202b;
+		--background-color-a: hsl(210deg 40% 20%);
+		--background-color-b: hsl(210deg 34% 12%);
 	}
 }
 
@@ -45,9 +41,17 @@ html,
 body {
 	padding: 0;
 	margin: 0 auto;
+	line-height: 1.6em;
 	font-family: var(--font-family);
 	color: var(--text-color);
 	background-color: var(--background-color);
+	background-image: linear-gradient(
+		180deg,
+		var(--background-color-b),
+		var(--background-color-a),
+		var(--background-color-b)
+	);
+	height:100vh;
 }
 html {
 	overflow-y: scroll;
@@ -70,13 +74,6 @@ body {
 
 p:last-child {
 	margin-bottom: 0;
-}
-p {
-	line-height: 1.5;
-}
-
-li {
-	line-height: 1.5;
 }
 
 a[href] {
@@ -268,4 +265,10 @@ a[href].header-anchor:focus,
 
 h2 + .header-anchor {
 	font-size: 1.5em;
+}
+
+img.imgFit {
+	max-width: 100%;
+	height: auto;
+	display: block;;
 }

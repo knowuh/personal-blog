@@ -2,10 +2,15 @@
 layout: layouts/base.njk
 ---
 
-## Hello ##
+{% image "./images/bigwheel2.png", "bigwheel" %}
 
-Hello, I am Noah Paessel, a visual arts instructor, software developer, and designer.
+Infrequent blog of Noah Paessel, a visual arts instructor, software developer, and designer.
 
-You can find me on most socials as **knowuh** and write to me at _knowuh at gmail dot com_.
+- [mastadon](https://mastodon.social/home)
+- [insta](https://www.instagram.com/knowuh/)
+- [git](https://github.com/knowuh)
+- email: _knowuh at gmail dot com_.
+
+---
 
 {{ content | safe }}
