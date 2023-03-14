@@ -9,11 +9,8 @@ In the [Blender G+ group](https://bit.ly/1siChID), people asked for some details
 I promised I would send a small explanation, and include the .blend file.
 Spoiler: I used Cycles, a light table, a glass surface shader,
 and a volume absorption shader.
-READMORE
 
 <img src="/images/2014-05/final.jpg" class="img img-responsive blog-image" alt="final"/>
-
-
 
 ### The light table scene setup ###
 
@@ -26,7 +23,6 @@ isn't visible, but it would be just above the top of the frame in this
 image:
 
 <img src="/images/2014-05/lit.png" class="img img-responsive blog-image" alt="bottom-lit"/>
-
 
 ### The candy shader ###
 
@@ -41,12 +37,11 @@ To make it extra candy-ish the saturation is pumped up to 10.
 
 <img src="/images/2014-05/shader-nodes.png" class="img img-responsive blog-image" alt="Candy shader settings"/>
 
-
 ### Room for imagination ###
+
 The only other interesting thing about this setup, is the camera has a very wide aperture, and makes use of a DOF empty object. This simple camera rig is part of my default scene because I use it so often.
 
 <img src="/images/2014-05/camera-dof.png" class="img img-responsive blog-image" alt="images/2014-05/camera-dof.png"/>
-
 
 
 ### Meta ###

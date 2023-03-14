@@ -13,8 +13,6 @@ My experiments to re-engage the viewers eye and
 re-introduce the hand of the artists into the digital process involve
 pencils, paper, and scanners.
 
-READMORE
-
 The popularity of photo filter apps like instagram reinforce the idea
 that we appreciate, and maybe romanticize the imperfection
 of the 'human hand'. Or possibly we are fascinated by chance events, and

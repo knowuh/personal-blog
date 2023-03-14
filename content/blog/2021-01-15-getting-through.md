@@ -1,19 +1,20 @@
 ---
 title: Getting through it
 date: 2021-01-15
-tags: crisis, 2020, 2021, pandemic
+tags:
+  - crisis
+  - 2020
+  - 2021
+  - pandemic
 ---
 
-# Getting through it
+## Getting through it ##
 
 Its the second week of January in 2021, and I may be one of the few people who is feeling better this week. It comes on the heels of being very depressed and anxious for months leading up to the election and the very dark Covid winter we knew we were entering.
 
 Here are some thoughts and practices that are keeping me sane. Full disclosure: I am fortunate to have been spared the worst of this horrible year. Some these are aspirational, meaning "I am working on it."
 
-READMORE
-
-<%= blog_image "/images/2021-01/interior.png", "w!nter" %>
-
+{% image "./images/2021-01/interior.png", "Winter scene" %}
 I see the scary and destructive trends in the world around us, and have some real trials in my personal life too. But I am open to the possibility that things *might not* as bad as they seem.
 
 Media companies (both 'traditional' and 'social') have a fiduciary responsibility that involves hijacking our limbic system for shareholder value. Our "engagement" drives ad revenue, and nothing engages us more than strong emotions and online arguments. I try to notice the platforms that enrage me and avoid them.
@@ -37,10 +38,3 @@ I bake a lot of desserts, I enjoy some wine, and I sleep more than usual. I drin
 I use the money I would have used on travel, dining, and entertainment on subscription services and support my favorite creators through Patreon.
 
 Maybe I am completely wrong about all of this, and civilization is about to collapse. Even so, I  recommend chilling the fork out.
-
-
-
-
-
-
-

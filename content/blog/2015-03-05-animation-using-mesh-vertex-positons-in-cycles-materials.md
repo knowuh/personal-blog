@@ -14,7 +14,7 @@ I am always looking for ways to avoid unwrapping my blender mesh UVs for my cycl
 
 __Enter the Geometry input node__. I have been tempted by this node in the past. It suggests that an object's geometry can be made available as input parameters. But I never worked out the magic of exactly how to do it until recently. Basically, it boils down to extracting the geometric attributes of your mesh that you want to use with a vector mapping node. You can see the basic of how this is done in the node setup shown here: 
 
-<%= blog_image "/images/2015-03-05/geom-nodes.jpg", "Geometry input nodes" %>
+{% image "./images/2015-03-05/geom-nodes.jpg", "Geometry input nodes" %}
 
 
 ### Sample NPR Results:  ###
@@ -22,7 +22,7 @@ __Enter the Geometry input node__. I have been tempted by this node in the past.
 Node setups like this can combine in interesting ways, and change your procedural textures so that they emphasize the shape of your geometry. Below is still image from a recent animated gif I put together using a similar node setup.  In this case, the Z postion of the mesh verticies were used to change the width of vertical lines along the meshe's y axis. The node setup for the below NPR render involved 2 vector maps. Can you guess the setup?
 
 
-<%= blog_image "/images/2015-03-05/output0025.jpg", "Sample rendering showing terain contour" %>
+{% image "./images/2015-03-05/output0025.jpg", "Sample rendering showing terain contour" %}
 
 
 ### Video Tutorial ###

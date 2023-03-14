@@ -53,6 +53,7 @@ html {
 	overflow-y: scroll;
 }
 body {
+	font-size: 14pt;
 	max-width: 40em;
 }
 

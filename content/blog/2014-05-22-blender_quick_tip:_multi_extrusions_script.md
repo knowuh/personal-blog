@@ -1,15 +1,15 @@
 ---
 title: Blender Quick Tip  Multi Extrusions Script
 date: 2014-05-22
-tags: blender video tutorial
+tags:
+  - blender
+  - video tutorial
 old_layout: blog
 ---
 
 In 2010 BlenderArtists forum memeber "Liero" gave us a cool script for
 extruding faces multiple times.  I think more people should be aware
 of this great tool.
-
-READMORE
 
 Here is a screenshot of multi-extrude in action:
 <img src="/images/2014-05/multi-extrude2.png" class="img img-responsive blog-image" alt="images/2014-05/multi-extrude.png"/>

@@ -15,12 +15,12 @@ to reproduce a flipping tile animation using the `vector distance node`. Unfortu
 
 Here is the finished animation in low resolution animated gif format:
 
-<%= blog_image "/images/2017-03-27/flippin.gif", "flipping tiles gif" %>
+{% image "./images/2017-03-27/flippin.gif", "flipping tiles gif" %}
 
 I hadn't made an animated gif in so long, I had to look around for tools.  I found [GIF Brewery 3](https://gifbrewery.com/) to be a great free tool. Available in the Apple App store for Mac OS.
 
 Here is the animation nodes setup:
 
-<%= blog_image "/images/2017-03-27/nodes.jpg", "node setup" %>
+{% image "./images/2017-03-27/nodes.jpg", "node setup" %}
 
 If you want a closer look at the node setup, <a href="/images/2017-03-27/nodes.jpg" target="_blank">this link</a> will open the full size image in a new window.

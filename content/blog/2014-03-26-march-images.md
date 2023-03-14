@@ -8,9 +8,6 @@ This is an (incomplete) listing of prints that I have available at the
 moment. The 20" prints are available for $180. The Triptychs are $690,
 but require at least 6' of horizontal wallspace.
 
-
-READMORE
-
 "Planar Isometric Triptych" 3 X 20” x 28”
 Noah Paessel 2013
 <img class="img img-responsive blog-image" src="/images/march_items/planar-isometric-triptych.jpg" />

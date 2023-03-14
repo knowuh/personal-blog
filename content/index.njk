@@ -1,10 +1,13 @@
 ---
-layout: layouts/home.njk
+layout: layouts/home.md
 eleventyNavigation:
-  key: Home
-  order: 1
+  key: Blog
+  order: 11
 numberOfLatestPostsToShow: 3
 ---
+{% set lastPost = collections.posts[collections.posts.length-1 | safe] %}
+Last Post {{ lastPost.date | htmlDateString}}:
+{{ lastPost.content | safe}}
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
 <h1>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h1>

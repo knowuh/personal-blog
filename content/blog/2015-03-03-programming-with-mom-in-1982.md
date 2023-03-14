@@ -1,7 +1,10 @@
 ---
 title: Programming with mom in 1982
 date: 2015-03-03
-tags: gender programming social
+tags:
+  - gender
+  - programming
+  - social
 ---
 
 

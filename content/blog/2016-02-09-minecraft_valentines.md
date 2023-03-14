@@ -1,7 +1,12 @@
 ---
 title: Minecraft Valentines Day Cards (2016)
 date: 2016-02-09
-tags: blender, illustrator, kids, valentines, holiday
+tags:
+  - blender
+  - illustrator
+  - kids
+  - valentines
+  - holiday
 ---
 
 ### Free Minecraft Valentines Cards in PDF format ###

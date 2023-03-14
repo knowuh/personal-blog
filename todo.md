@@ -1,0 +1,7 @@
+- [ ] Fix blog images
+- [ ] Add some meta-data
+- [ ] Fix the about and site templates
+- [ ] Find Broken Links
+  - [ ] Link to the .blend file
+- [ ] Find some good stylesheets
+- [ ] Compare nunjucks templater support
