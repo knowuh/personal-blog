@@ -8,9 +8,10 @@
 :root {
 	--color-gray-20: #e0e0e0;
 	--color-gray-50: #C0C0C0;
-	--color-gray-90: #333;
+	--color-gray-90: #dad8d8;
 
-	--background-color: hsl(210deg 34% 12%);
+	--background-color-a: hsl(210deg 40% 20%);
+	--background-color-b: hsl(210deg 34% 12%);
 
 	--text-color: hsl(41deg 50% 90%);
 	--text-color-link: hsl(41deg 80% 80%);
@@ -20,16 +21,6 @@
 	--syntax-tab-size: 2;
 }
 
-@media (prefers-color-scheme: dark) {
-	:root {
-		--color-gray-20: #e0e0e0;
-		--color-gray-50: #C0C0C0;
-		--color-gray-90: #dad8d8;
-
-		--background-color-a: hsl(210deg 40% 20%);
-		--background-color-b: hsl(210deg 34% 12%);
-	}
-}
 
 
 /* Global stylesheet */
@@ -94,17 +85,9 @@ a[href]:active {
 main {
 	padding: 1rem;
 }
-main :first-child {
-	margin-top: 0;
-}
 
 header {
 	border-bottom: 1px dashed var(--color-gray-20);
-}
-header:after {
-	content: "";
-	display: table;
-	clear: both;
 }
 
 .links-nextprev {
@@ -151,6 +134,7 @@ header {
 	flex-wrap: wrap;
 	align-items: flex-start;
 	padding: 1em;
+	justify-content: space-between;
 }
 .home-link {
 	font-size: 1em; /* 16px /16 */
@@ -283,6 +267,7 @@ img.imgFit {
 	display: flex;
 	flex-direction: row;
 	font-size: 0.8em;
+	line-height: 1.5em;
 }
 
 .split-view > div {
@@ -303,8 +288,14 @@ img.imgFit {
 .socials {
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 1em;
 }
 
+.post-metadata li {
+	font-size: 0.8em;
+	line-height: 0.7em;
+}
 /* Smaller Screen stuff: */
 @media (max-width: 550px) {
 	.nav {
@@ -328,6 +319,7 @@ img.imgFit {
 	.socials {
 		display: flex;
 		flex-direction: row;
+		flex-wrap: wrap;
 	}
 }
 

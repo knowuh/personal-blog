@@ -2,8 +2,12 @@
 layout: layouts/home.njk
 numberOfLatestPostsToShow: 3
 ---
+
+<hr/>
 {% set lastPost = collections.posts[collections.posts.length-1 | safe] %}
-Last Post {{ lastPost.date | htmlDateString}}:
+{% set page = lastPost %}
+{% set tags = lastPost.data.tags %}
+{% include "metadata.njk" %}
 {{ lastPost.content | safe}}
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
