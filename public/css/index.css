@@ -56,9 +56,14 @@ html {
 	overflow-y: scroll;
 }
 body {
+	position: relative;
 	font-size: 14pt;
 	max-width: 40em;
+	border: 2px solid white;
 }
+
+
+
 
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
 .visually-hidden {
@@ -144,7 +149,7 @@ header {
 	display: flex;
 	gap: 1em .5em;
 	flex-wrap: wrap;
-	align-items: center;
+	align-items: flex-start;
 	padding: 1em;
 }
 .home-link {
@@ -173,7 +178,9 @@ header {
 .nav a[href][aria-current="page"] {
 	text-decoration: underline;
 }
-
+ul.nav {
+	display: flex;
+}
 /* Posts list */
 .postlist {
 	list-style: none;
@@ -275,4 +282,52 @@ img.imgFit {
 .split-view {
 	display: flex;
 	flex-direction: row;
+	font-size: 0.8em;
 }
+
+.split-view > div {
+	max-width: 50%;
+	margin: 1em;
+}
+
+#canvas {
+	opacity: 0.5;
+	position: absolute;
+  top:0;
+  right:0;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+}
+
+.socials {
+	display: flex;
+	flex-direction: column;
+}
+
+/* Smaller Screen stuff: */
+@media (max-width: 550px) {
+	.nav {
+		flex-direction: column;
+	}
+	ul.nav {
+		flex-direction: column;
+	}
+	header {
+		flex-direction: column;
+		justify-content: flex-start;
+		align-content: flex-start;
+	}
+	.split-view {
+    display: flex;
+    flex-direction: column;
+	}
+	.split-view > div {
+		max-width: 100%;
+	}
+	.socials {
+		display: flex;
+		flex-direction: row;
+	}
+}
+

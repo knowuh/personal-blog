@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="{{ metadata.language }}">
 
 <head>
@@ -13,7 +13,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Sono:wght@200;300;400;700&display=swap" rel="stylesheet">
-	
+
 	{#- Uncomment this if you’d like folks to know that you used Eleventy to build your site! #}
 	{#-
 	<meta name="generator" content="{{ eleventy.generator }}"> #}
@@ -41,6 +41,7 @@
 </head>
 
 <body>
+	<canvas id="canvas"></canvas>
 	<a href="#skip" class="visually-hidden">Skip to main content</a>
 
 	<header>
@@ -69,6 +70,7 @@
 	<footer></footer>
 
 	<!-- Current page: {{ page.url | htmlBaseUrl }} -->
+	<script src="app.js" async="true"></script>
 </body>
 
 </html>
